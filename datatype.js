@@ -15,14 +15,14 @@ console.log(`My fullname is ${lastName} ${firstName}.`);
 
 // DOM
 const text = "New update added text!";
-document.getElementById('message')
-            .textContent = text;
+// document.getElementById('message')
+//             .textContent = text;
 
-document.getElementById('footer')
-            .textContent = "New context !!!";
+// document.getElementById('footer')
+//             .textContent = "New context !!!";
 
-document.getElementById('title')
-            .textContent = "JomNumTech JS"
+// document.getElementById('title')
+//             .textContent = "JomNumTech JS"
 
 // Operators
 let num1 = 15;
@@ -52,3 +52,37 @@ console.log(a + b);
 
 // NaN = Not a number
 // TypeScript
+
+// Logical Operator
+// AND - OR - NOT
+let isRaining = false;
+let isSunny = false;
+let isCloudy = true;
+
+// AND : true if both condition is true
+// true && true = true
+// true && false = false
+// false && true = false
+// false && false = false
+
+// OR : true if one of the condition is true
+// true || true = true
+// true || false = true
+// false || true = true
+// false || false = false
+
+// NOT : true if condition is false
+// !true = false
+// !false = true
+
+if(isRaining || isSunny){
+    console.log("Yes It is true");
+} else {
+    console.log("No It is false");
+}
+
+if(!isCloudy){
+    console.log("Now, It sunny!");
+} else {
+    console.log("Now, It is still cloudy!");
+}
